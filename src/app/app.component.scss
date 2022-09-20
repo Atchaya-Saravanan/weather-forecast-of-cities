@@ -1,0 +1,110 @@
+.top-block {
+    display: flex;
+    justify-content: space-between;
+    margin: 24px;
+
+    .location-temp {
+        font-size: 3rem;
+    }
+
+    .error-message {
+        color: red;
+        text-align: center;
+        margin: 2em;
+    }
+
+    .search-section {
+        text-align: center;
+    
+        input {
+            background-color: #C0C0C0;
+            outline: none;
+            border: none;
+            border-radius: 20px;
+            padding: 1em;
+            color: #808080;
+            font-size: 0.8em;
+        }
+    }
+}
+
+.image-section {
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+    height: 50%;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+
+    .map-block {
+        position: absolute;
+        top: 0;
+        left: 0;
+        height: 100%;
+        width: 100%;
+    }
+}
+
+.data-section {
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+    height: 50%;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    padding: 1em;
+    display: flex;
+    flex-direction: column;
+}
+
+.more-info-label {
+    color: #FFF;
+}
+
+.more-info-container {
+    flex: 1;
+    background-color: #C0C0C0;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    margin-top: 1em;
+
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+
+    .info-block {
+        width: 50%;
+        display: flex;
+        flex-direction: row;
+    }
+
+    .info-block-label {
+        width: 50%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+        img {
+            width: 1.5em;
+        }
+
+        span {
+            color: #000;
+            font-size: 0.8em;
+        }
+    }
+
+    .info-block-value {
+        width: 50%;
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        color: #000;
+    }
+}
+
+.map-block{
+    height: 200px;
+    width: 200px;
+}
