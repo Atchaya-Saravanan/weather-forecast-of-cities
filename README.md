@@ -1,4 +1,4 @@
-# WeatherForecastOfCities
+# Weather Forecast Of Cities
 
 The goal of this project is to display the current weather in cities across the world
 
