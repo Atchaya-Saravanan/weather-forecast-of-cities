@@ -1,5 +1,25 @@
 # WeatherForecastOfCities
 
+The goal of this project is to display the current weather in cities across the world
+
+- Search for a city name and get information about the weather.
+
+- Shows the geographical location of the searched city in Google Maps.
+
+- Allows the user to select a location on the map to view the weather.
+
+- Handles all possible errors by showing relevant error messages.
+
+- Uses a [weather api](https://rapidapi.com/weatherapi/api/weatherapi-com/) to fetch latest data.
+
+Visit the website here: [Weather In Cities](https://atchaya-saravanan.github.io/weather-forecast-of-cities/)
+
+Here are some of the project screenshots.
+
+![api error page](https://user-images.githubusercontent.com/109528982/191407946-aa62ab6a-838c-4c9f-9e74-b393ce38b3e7.JPG)
+
+![current weather of cities with map embedded](https://user-images.githubusercontent.com/109528982/191407976-b8d61285-7e54-438a-8629-f68b98bb98a7.JPG)
+
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 14.0.6.
 
 ## Development server
